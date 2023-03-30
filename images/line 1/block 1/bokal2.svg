@@ -1,0 +1,32 @@
+<svg width="403" height="256" viewBox="0 0 403 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M134.503 246.569H55.7074" stroke="#00B7FF" stroke-width="3"/>
+<path d="M95.1055 28.8926L95.1055 76.057V247.393" stroke="#00B7FF" stroke-width="3"/>
+<path d="M179.524 136.533C237.094 177.122 303.521 189.475 365.52 136.533C387.662 118.885 448.421 199.005 330.092 244.183C211.763 289.36 157.894 160.986 103.354 130.356C87.3926 121.393 89.131 143.893 101.893 152.893C52.631 136.393 68.8119 100.356 97.1541 97.7085C125.496 95.0614 140.671 109.141 179.524 136.533Z" stroke="#00B7FF" stroke-width="3"/>
+<path d="M95.3926 0.392578H189.893L95.3926 72.3926L0.892578 0.392578H95.3926Z" fill="#232323"/>
+<mask id="mask0_55_23391" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="190" height="73">
+<path d="M95.3926 0.392578H189.893L95.3926 72.3926L0.892578 0.392578H95.3926Z" fill="#232323"/>
+</mask>
+<g mask="url(#mask0_55_23391)">
+<circle r="2.43474" transform="matrix(0.258819 0.965926 0.965926 -0.258819 121.911 24.6616)" fill="white"/>
+<circle r="2.43474" transform="matrix(0.258819 0.965926 0.965926 -0.258819 180.911 30.6611)" fill="white"/>
+<circle r="2.43474" transform="matrix(0.258819 0.965926 0.965926 -0.258819 147.911 50.3745)" fill="white"/>
+<circle r="2.43474" transform="matrix(-6.77942e-08 1 1 6.77942e-08 96.1144 49.2482)" fill="white"/>
+<circle r="2.43474" transform="matrix(-6.77942e-08 1 1 6.77942e-08 59.9592 64.4069)" fill="white"/>
+<circle r="2.43474" transform="matrix(-1.96286e-08 -1 -1 1.96286e-08 25.8621 30.6287)" fill="white"/>
+<circle r="2.43474" transform="matrix(0.258819 0.965926 0.965926 -0.258819 170.491 3.16498)" fill="white"/>
+<circle r="2.43474" transform="matrix(0.258819 0.965926 0.965926 -0.258819 87.1265 -2.22467)" fill="white"/>
+<circle r="2.43474" transform="matrix(-0.258819 -0.965926 -0.965926 0.258819 6.91064 56.3746)" fill="white"/>
+<circle r="2.43474" transform="matrix(0.258819 0.965926 0.965926 -0.258819 78.9106 38.6616)" fill="white"/>
+<circle r="1.52171" transform="matrix(0.258819 0.965926 0.965926 -0.258819 146.727 16.7796)" fill="white"/>
+<circle r="1.52171" transform="matrix(0.258819 0.965926 0.965926 -0.258819 171.792 24.7796)" fill="white"/>
+<circle r="1.52171" transform="matrix(0.258819 0.965926 0.965926 -0.258819 163.792 27.7796)" fill="white"/>
+<circle r="1.52171" transform="matrix(0.258819 0.965926 0.965926 -0.258819 175.029 41.2562)" fill="white"/>
+<circle r="1.52171" transform="matrix(0.258819 0.965926 0.965926 -0.258819 185.792 7.77963)" fill="white"/>
+<circle r="1.52171" transform="matrix(0.258819 0.965926 0.965926 -0.258819 96.7924 33.7796)" fill="white"/>
+<circle r="1.52171" transform="matrix(0.258819 0.965926 0.965926 -0.258819 88.7924 27.7796)" fill="white"/>
+<circle r="1.52171" transform="matrix(0.258819 0.965926 0.965926 -0.258819 108.918 7.37582)" fill="white"/>
+<circle r="1.52171" transform="matrix(-1.96286e-08 -1 -1 1.96286e-08 132.371 44.9143)" fill="white"/>
+<circle r="1.52171" transform="matrix(-6.77942e-08 1 1 6.77942e-08 131.053 69.0852)" fill="white"/>
+<circle r="1.52171" transform="matrix(0.258819 0.965926 0.965926 -0.258819 52.7924 17.7796)" fill="white"/>
+</g>
+</svg>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Интерактивный веб-плакат Закуток</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="icon" type="image/icon" href="images/icon.iсo"/>
+    <link rel="icon" type="image/png" href="images/icon.png"/>
+    <meta name="viewport" content="width=device-width">
+  </head>
+
+  <body>
+    <main class="container">
+      <!-- "ЗАКУТОК" и переключатель -->
+      <div class="head">
+        <img class="zak" src="images/head/zak.svg" alt="zak">
+        <div class="string"></div>
+        <div class="switch"></div>
+
+        <script>
+          const switchEl = document.querySelector('.switch');
+
+          switchEl.addEventListener('click', () => {
+            if (document.body.style.backgroundColor === 'rgb(34, 34, 34)') {
+              document.body.style.backgroundColor = '#EAE8E4';
+            } else {
+              document.body.style.backgroundColor = '#222';
+            }
+          });
+        </script>
+
+      </div>
+       <!-- строка 1 -->
+
+      <section class="stroka1">
+         <!-- блок 1 -->
+        <div class="block1left" id="thing1">
+          <img class="bokal1 bokal1_hit" src="images/line 1/block 1/bokal1.svg" alt="bokal1">
+          <img class="bokal2 bokal2_hit" src="images/line 1/block 1/bokal2.svg" alt="bokal2">
+
+          <div class="block1_shake">
+            <img class="bokal1_line" src="images/line 1/block 1/bokal1_line.svg" alt="bokal1_line">
+            <div class="red1left" id="red"></div>
+            <img class="bokal2_line" src="images/line 1/block 1/bokal2_line.svg" alt="bokal2_line">
+            <div class="red2left" id="red"></div>
+            </div>
+          </div>
+        </div>
+        <div class="dzin">
+          <img src="images/line 1/дзинь.svg" alt="дзинь">
+        </div>
+
+        <!-- блок 2 -->
+        <div class="block1centre" id="thing1">
+          <img class="nlo1" src="images/line 1/block 2/nlo1.svg" alt="nlo1">
+          <img class="nlo1_line" src="images/line 1/block 2/nlo1_line.svg" alt="nlo1_line">
+          <div class="block1centr_shake_red">
+            <div class="red1centre" id="red"></div>
+            <div class="red2centre" id="red"></div>
+            <div class="red3centre" id="red"></div>
+          </div>
+        </div>
+        <!-- блок 3 -->
+        <div class="block1right" id="thing1">
+          <img class="station" src="images/line 1/block 3/station.svg" alt="station">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="red1right" id="red"></div>
+          <div class="red2right" id="red"></div>
+          <div class="red3right" id="red"></div>
+          <div class="station_line"></div>
+        </div>
+      </section>
+      <!-- строка 2 -->
+      <section class="stroka2">
+        <!-- блок 1 -->
+        <div class="block2left" id="thing2">
+          <div class="shaker">
+        </div>
+        <body>
+        <div id="mydiv">
+          <img class="shaker" src="images/line 2/block 1/shaker.svg" alt="shaker"></div>
+        </div>
+        <!-- скрипт для перетаскивания шейкера -->
+        <script>
+        dragElement(document.getElementById("mydiv"));
+
+        function dragElement(elmnt) {
+          var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+          if (document.getElementById(elmnt.id + "header")) {
+            document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+          } else {
+            elmnt.onmousedown = dragMouseDown;
+          }
+
+          function dragMouseDown(e) {
+            e = e || window.event;
+            e.preventDefault();
+            pos3 = e.clientX;
+            pos4 = e.clientY;
+            document.onmouseup = closeDragElement;
+            document.onmousemove = elementDrag;
+          }
+
+          function elementDrag(e) {
+            e = e || window.event;
+            e.preventDefault();
+            pos1 = pos3 - e.clientX;
+            pos2 = pos4 - e.clientY;
+            pos3 = e.clientX;
+            pos4 = e.clientY;
+            elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+            elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+          }
+
+          function closeDragElement() {
+            document.onmouseup = null;
+            document.onmousemove = null;
+          }
+        }
+        </script>
+        <!-- блок 2 -->
+        <div class="block2right" id="thing3">
+          <img class="guitar" src="images/line 2/block 2/guitar.svg" alt="guitar">
+          <img class="guitar_line" src="images/line 2/block 2/guitar_line.svg" alt="guitar_line">
+          <img class="strings_line" src="images/line 2/block 2/strings_line.svg" alt="strings_line">
+        </div>
+      </section>
+      <section class="stroka3">
+       <!-- строка 3 -->
+       <!-- блок 1 -->
+       <div class="block3left" id="thing1">
+         <img class="nlo2_line" src="images/line 3/block 1/nlo2_line.svg" alt="nlo2">
+         <img class="light" src="images/line 3/block 1/light.svg" alt="light">
+         <img class="luchi_light" src="images/line 3/block 1/luchi_light.svg" alt="light">
+       </div>
+       <!-- блок 2 -->
+       <div class="block3right" id="thing4">
+           <img class="heads1_line" src="images/line 3/New folder/heads1_line.svg" alt="heads1_line">
+           <img class="heads2_line" src="images/line 3/New folder/heads2_line.svg" alt="heads2_line">
+           <img class="micro" src="images/line 3/New folder/micro.svg" alt="micro">
+           <img class="micro_line" src="images/line 3/New folder/micro_line.svg" alt="micro_line">
+           <img class="scene_line" src="images/line 3/New folder/scene_line.svg" alt="scene_line">
+           <div class="red7left" id="red"></div>
+           <div class="red7centre" id="red"></div>
+           <div class="red7rigth" id="red"></div>
+           <div class="red7rigth2" id="red"></div>
+         </div>
+      </section>
+      <!-- подвал -->
+      <section class="podval">
+      <img class="fio" src="images/podval/fio.svg" alt="fio">
+      <img class="logo" src="images/podval/logo.svg" alt="logo">
+      </section>
+    </main>
+  </body>
+</html>
